@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("build"){
       steps{
-        echo "hello from Jenkins Pipeline"
+        echo "branch  1 says hello"
       }
     }
   }
