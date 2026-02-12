@@ -1,9 +1,9 @@
 pipeline{
-  agent any
-  stages{
-    stage('Build'){
+  agent any 
+  stages {
+    stage("build"){
       steps{
-        echo 'hello from Jenkins Pipeline'
+        echo "Hello from the BCA"
       }
     }
   }
